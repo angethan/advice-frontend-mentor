@@ -1,0 +1,40 @@
+@use "colors";
+@use "typography";
+@use "layout";
+
+.container {
+  width: layout.$container;
+  background-color: colors.$darkBlue;
+  @include layout.flex-column;
+  text-align: center;
+  padding: 40px 40px 80px 40px;
+  border-radius: 15px;
+  position: relative;
+  margin-bottom: 80px;
+
+  picture {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+
+  .generator {
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    background-color: colors.$neonGreen;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+    &:hover {
+      filter: drop-shadow(0 0 0.7rem colors.$neonGreen);
+      transition: all 0.4s ease-out;
+    }
+  }
+}

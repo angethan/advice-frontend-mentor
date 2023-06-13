@@ -1,0 +1,8 @@
+@use "layout";
+@use "container";
+
+@media (max-width: 601px) {
+  .container {
+    width: layout.$containerSM;
+  }
+}
