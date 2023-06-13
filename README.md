@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/angethan/advice-frontend-mentor)
+- Live Site URL: [Netlify](https://advice-angethan.netlify.app)
 
 ## My process
 
